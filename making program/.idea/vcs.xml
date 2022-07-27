@@ -4,5 +4,7 @@
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/be-sprint-Ai_V1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/be-sprint-calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/be-sprint-stringify-json" vcs="Git" />
   </component>
 </project>
