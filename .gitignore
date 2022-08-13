@@ -1,5 +1,11 @@
-/Baekjoon/.idea/
+Assignment/.idea
+Assignment/Assignment.iml
+Assignment/morning.iml
 
-/Baekjoon/.src/
+Baekjoon/.out
+Baekjoon/.idea
 
-/Baekjoon/.src/.idea/
+.idea
+src
+temp
+.gitignore
