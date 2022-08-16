@@ -5,7 +5,6 @@ Assignment/morning.iml
 Baekjoon/.out
 Baekjoon/.idea
 
-.idea
-src
-temp
-.gitignore
+coding/.idea
+coding/src
+coding/.gitignore
