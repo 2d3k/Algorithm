@@ -24,13 +24,30 @@ num = 5, total = 15인 경우 [1, 2, 3, 4, 5]를 return합니다.
 ---
 
 ### 설계 / 아이디어
-total을 num으로 나누면 중간값이 나온다.
-나머지가 있다면, num을 2로 나눈 것이 배열의 첫번쨰이다.
+1. total을 num으로 나누면 중간값이 나온다.
+2. 연속된 숫자이므로 중앙값에서 중앙값의 위치를 빼면 첫번째 값이 나온다. 
 
 ---
 
 ### 문제 풀이
 
 ```java
+class Solution {
+    public int[] solution(int num, int total) {
 
+        int[] answer = new int[num];
+
+        // total에서 num을 나누면 중앙값
+        int median = total / num;
+
+        // 짝수일 때와 홀수일 때 중앙값의 위치: median에서 빼면 시작 숫자가 나옴
+        int subtract = total % num == 0 ? num / 2 : num / 2 - 1;
+        int start = median - subtract;
+
+        for (int i = 0; i < num; i++) {
+            answer[i] = start + i;
+        }
+        return answer;
+    }
+}
 ```
