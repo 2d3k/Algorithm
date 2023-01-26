@@ -5,4 +5,4 @@
 3. LeetCode: [리트코드 사이트](https://leetcode.com/problemset/all/)에서 문제 풀이 및 문제의 영어 번역
 
 ### 현재 진행
-리트코드의 Data Structure I를 풀이
+프로그래머스 연습문제 푸는 중
