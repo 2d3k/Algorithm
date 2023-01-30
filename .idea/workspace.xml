@@ -25,6 +25,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "last_opened_file_path": "C:/Users/32150944/Desktop/알고리즘 연습",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
   }
