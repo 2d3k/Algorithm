@@ -37,7 +37,7 @@ class Solution {
                 end = mid - 1;
             }
         }
-        return start;
+        return nums[start];
     }
 }
 
@@ -68,5 +68,5 @@ class Solution {
 //             }
 //         }
 //         return once;
-//      }
-//  }
+//     }
+// }
